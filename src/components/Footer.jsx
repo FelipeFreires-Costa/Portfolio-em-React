@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
-  return (
-    <div>Footer</div>
+function Footer(){
+  return(
+    <footer className="footer">
+      <p>© 2025 - Felipe Freires. Construído com React.</p>
+    </footer>
   )
 }
 

@@ -8,35 +8,49 @@ import Projetos from '../components/Projetos';
 import Contato from '../components/Contato';
 import Footer from '../components/Footer';
 
-const Portfolio = () => {
+function Portfolio(){
   return (
-    <div className='portfolio-container'>
+  <div className="portfolio-container">
+      
+      {/* Pedaço 1: O Cabeçalho Fixo */}
       <Header />
+
+      {/* Usamos <main> para o conteúdo principal */}
       <main>
-        <section id='home'>
+        
+        {/* Pedaço 2: Abertura (Foto e Nome) */}
+        {/* Damos um ID para o link do Header funcionar */}
+        <section id="home">
           <Hero />
         </section>
 
-        <section id='sobre' className='sobre-section'>
+        {/* Pedaço 3 e 4: Sobre Mim + Faculdade */}
+        <section id="sobre" className="sobre-section">
           <Sobre />
           <FaculdadeCard />
         </section>
 
-        <section id='habilidades' className='habilidades-section'>
+        {/* Pedaço 5: Habilidades (Ícones) */}
+        <section id="habilidades" className="habilidades-section">
           <Habilidades />
         </section>
-
-        <section id='projetos' className='projetos-section'>
+        
+        {/* Pedaço 6: Projetos (Os Cards) */}
+        <section id="projetos" className="projetos-section">
           <Projetos />
         </section>
 
-        <section id='contato' className="contato-section">
+        {/* Pedaço 7: Contato */}
+        <section id="contato" className="contato-section">
           <Contato />
         </section>
-      </main>
 
+      </main>
+      
+      {/* Pedaço 8: Rodapé */}
       <Footer />
-    </div>
+      
+    </div> 
   )
 }
 
