@@ -1,42 +1,43 @@
-
-.dark-veil-background { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1; 
+.dark-veil-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
 }
+
 .bemvindo-container {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .boas-vindas-container {
-    width: 100vw;
-    min-height: 100vh; 
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;   
-    align-items: center;       
-    text-align: center;
-    font-family: 'Manrope';
-    color: #fff ;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Manrope';
+  color: #fff;
 }
 
-.title{
-    font-size: 4rem;
-    font-weight: 1000;
-    margin: 0;
+.title {
+  font-size: 4rem;
+  font-weight: 1000;
+  margin: 0;
+  color: #ffffffc0;
 }
 
-.entrar-btn{
+.entrar-btn {
   background-color: #ffffff1f;
   color: #ffffff91;
   border: 1px solid #cccccc59;
@@ -48,8 +49,8 @@
   transition: 0.2s ease-in-out;
 }
 
-.entrar-btn:hover{
+.entrar-btn:hover {
   -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #5c38ff;
   box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #7d37ff;
-    background-color: #ffffff00;
+  background-color: #ffffff00;
 }

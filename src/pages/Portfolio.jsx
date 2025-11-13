@@ -7,28 +7,43 @@ import Habilidades from '../components/Habilidades';
 import Projetos from '../components/Projetos';
 import Contato from '../components/Contato';
 import Footer from '../components/Footer';
+import LightRays from './LightRays.jsx';
+import './Portfolio.css'
 
 function Portfolio(){
   return (
   <div className="portfolio-container">
-      
-      {/* Pedaço 1: O Cabeçalho Fixo */}
-      <Header />
+    <div className='background-area'>
+    <Header />
+      <div className='light-rays-container'>
+        <LightRays
+    raysOrigin="top-center"
+    raysColor="#8C4EE0"
+    raysSpeed={1.5}
+    lightSpread={0.8}
+    rayLength={1.2}
+    followMouse={true}
+    mouseInfluence={0.1}
+    noiseAmount={0.1}
+    distortion={0.05}
+    className="custom-rays"
+  />
+      </div>
 
-      {/* Usamos <main> para o conteúdo principal */}
-      <main>
-        
-        {/* Pedaço 2: Abertura (Foto e Nome) */}
-        {/* Damos um ID para o link do Header funcionar */}
+
         <section id="home">
           <Hero />
         </section>
 
-        {/* Pedaço 3 e 4: Sobre Mim + Faculdade */}
         <section id="sobre" className="sobre-section">
           <Sobre />
           <FaculdadeCard />
         </section>
+
+
+    </div>
+
+      <main>
 
         {/* Pedaço 5: Habilidades (Ícones) */}
         <section id="habilidades" className="habilidades-section">
@@ -49,8 +64,8 @@ function Portfolio(){
       
       {/* Pedaço 8: Rodapé */}
       <Footer />
-      
     </div> 
+      
   )
 }
 

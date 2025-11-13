@@ -1,30 +1,5 @@
-:root {
-    /* Cores de Fundo (Tech Noir / Dark Mode) */
-    --color-background-primary: #121212; /* Fundo principal */
-    --color-background-secondary: #1E1E1E; /* Fundo de Cards, Sections */
-    --color-background-tertiary: #282c34; /* Fundo de Header/Footer */
 
-    /* Cores de Destaque (Luminosos / Acentos) */
-    --color-accent-cyan: #00FFFF; /* Ciano - Acento Primário */
-    --color-accent-magenta: #FF007F; /* Magenta - Acento Secundário */
-    --color-text-light: #F5F5F5; /* Texto principal claro */
-    --color-text-muted: #AAAAAA; /* Texto secundário (cinza) */
-
-    /* Degrade */
-    --gradient-tech: linear-gradient(
-        45deg, 
-        var(--color-accent-magenta), 
-        var(--color-accent-cyan)
-    );
-}
-
-/* CONFIGURAÇÃO BASE: 
-Aplique o fundo e a cor de texto base em toda a aplicação.
-Isso garantirá o seu dark mode em todo lugar!
-*/
 body {
-    background-color: var(--color-background-primary);
-    color: var(--color-text-light);
     font-family: 'Arial', sans-serif; /* Use uma fonte moderna aqui */
     margin: 0;
     padding: 0;

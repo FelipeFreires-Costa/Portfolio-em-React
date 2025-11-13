@@ -1,34 +1,49 @@
 .header {
-    /* Fundo preto ou escuro */
-    background-color: #282c34; 
-    /* Cor da fonte principal */
-    color: #ffffff; 
-    /* Altura e padding */
-    padding: 15px 30px;
-    height: 60px;
-    /* Faz o header ficar fixo no topo (opcional) */
-    position: sticky;
+    background: rgba(0, 0, 0, 0.418);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    color: #ffffff;
+    padding: 10px;
+    height: 40px;
+    margin: 0 auto;
     top: 0;
-    z-index: 1000; /* Garante que fique acima de outros elementos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 65%;
+    z-index: 1000 !important;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Manrope';
+    position: fixed;
 }
 
 .navbar {
     /* Usa Flexbox para alinhar os links */
     display: flex;
-    justify-content: flex-end; /* Links vão para o lado direito */
+    justify-content: space-between;
+    /* Links vão para o lado direito */
     align-items: center;
-    gap: 25px; /* Espaçamento entre os links */
+    gap: 25px;
+    /* Espaçamento entre os links */
 }
 
 .navbar a {
-    color: #61dafb; /* Cor de destaque (Azul React) */
-    text-decoration: none; /* Remove o sublinhado */
+    color: var(--color-roxo-primario);
+    /* Cor de destaque (Azul React) */
+    text-decoration: none;
+    /* Remove o sublinhado */
     font-weight: 600;
-    transition: color 0.3s ease; /* Transição suave */
+    transition: color 0.3s ease;
+    /* Transição suave */
 }
 
 .navbar a:hover {
-    color: #ffffff; /* Fica branco quando passa o mouse */
+    color: var(--color-roxo-acento);
+    /* Fica branco quando passa o mouse */
     text-decoration: underline;
 }
