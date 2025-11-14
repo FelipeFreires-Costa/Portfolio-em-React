@@ -30,18 +30,18 @@ function Portfolio(){
   />
       </div>
 
-
+<div className='container-principal'>
         <section id="home">
           <Hero />
         </section>
 
+</div>
+
+    </div>
         <section id="sobre" className="sobre-section">
           <Sobre />
           <FaculdadeCard />
         </section>
-
-
-    </div>
 
       <main>
 

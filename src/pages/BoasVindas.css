@@ -34,23 +34,25 @@
   font-size: 4rem;
   font-weight: 1000;
   margin: 0;
-  color: #ffffffc0;
+  color: #ffffffde;
 }
 
+
 .entrar-btn {
-  background-color: #ffffff1f;
-  color: #ffffff91;
-  border: 1px solid #cccccc59;
+  background: rgba(211, 211, 211, 0.055);
+  color: #ffffff;
+  border: 1px solid var(--color-roxo-primario);
   font-size: 1rem;
   padding: 10px 25px;
+  font-weight: 700;
   border-radius: 8px;
   letter-spacing: 2px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  margin-top: 10px;
 }
 
 .entrar-btn:hover {
-  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #5c38ff;
-  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #7d37ff;
-  background-color: #ffffff00;
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px #8b4ee0da;
 }

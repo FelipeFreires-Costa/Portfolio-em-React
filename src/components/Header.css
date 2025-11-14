@@ -1,12 +1,12 @@
 .header {
-    background: rgba(0, 0, 0, 0.418);
+    background: rgba(211, 211, 211, 0.055);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(6.4px);
     border: 1px solid rgba(255, 255, 255, 0.103);
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     height: 40px;
     margin: 0 auto;
     top: 0;
@@ -16,7 +16,7 @@
     z-index: 1000 !important;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Manrope';
     position: fixed;
@@ -28,18 +28,15 @@
     justify-content: space-between;
     /* Links vão para o lado direito */
     align-items: center;
-    gap: 25px;
+    gap: 50px;
     /* Espaçamento entre os links */
 }
 
 .navbar a {
-    color: var(--color-roxo-primario);
-    /* Cor de destaque (Azul React) */
+    color: var(--corlor-texto-claro);
     text-decoration: none;
-    /* Remove o sublinhado */
     font-weight: 600;
     transition: color 0.3s ease;
-    /* Transição suave */
 }
 
 .navbar a:hover {

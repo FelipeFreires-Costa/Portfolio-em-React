@@ -1,14 +1,15 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     /* Faz a página ocupar 100% da largura e altura da tela */
-    width: 100vw; 
+    width: 100vw;
     height: 100vh;
     overflow-x: hidden;
     /* CRUCIAL: Esconde qualquer conteúdo que tente sair do limite da tela, removendo as barras de rolagem desnecessárias */
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
@@ -16,22 +17,31 @@ html{
 
 :root {
     /* Cores de Fundo e Base (Tons mais escuros) */
-    --color-fundo-principal: #1A122A; /* Um índigo muito escuro, quase preto (Base Noite) */
-    --color-superficie-card: #2C2042; /* Roxo escuro para cards, com leve profundidade */
-    
+    --color-fundo-principal: #1A122A;
+    /* Um índigo muito escuro, quase preto (Base Noite) */
+    --color-superficie-card: #2C2042;
+    /* Roxo escuro para cards, com leve profundidade */
+
     /* Cores de Destaque (Acentuadas) */
-    --color-roxo-primario: #8C4EE0;    /* Violeta Profundo (Ideal para títulos e barras) */
-    --color-roxo-acento: #C37BEA;      /* Roxo Lilás, para brilhos e toques de luz */
-    --color-magenta-glow: #FF007F;     /* Magenta Vibrante (Para o efeito 'glow' ou botões CTA) */
-    
+    --color-roxo-primario: #8C4EE0;
+    /* Violeta Profundo (Ideal para títulos e barras) */
+    --color-roxo-acento: #C37BEA;
+    /* Roxo Lilás, para brilhos e toques de luz */
+    --color-magenta-glow: #FF007F;
+    /* Magenta Vibrante (Para o efeito 'glow' ou botões CTA) */
+
     /* Cores de Texto e Neutras */
-    --color-texto-claro: #E0E0E0;      /* Branco Suave para o texto */
-    --color-borda-suave: #444455;      /* Roxo Acinzentado para bordas de cards */
-    
+    --color-texto-claro: #a0a0a0;
+    --color-gray-200: oklch(.928 .006 264.531);
+    /* Branco Suave para o texto */
+    --color-borda-suave: #444455;
+    /* Roxo Acinzentado para bordas de cards */
+
     /* Exemplo de Gradiente (Para botões ou headers) */
-    --gradient-roxo: linear-gradient(
-        90deg, 
-        var(--color-roxo-primario), 
-        var(--color-roxo-acento)
-    );
+    --gradient-roxo: linear-gradient(90deg,
+            var(--color-roxo-primario),
+            var(--color-roxo-acento));
+    --gradient-purple-1: linear-gradient(90deg, #7f00ff, #e100ff);
+    --gradient-purple-2: linear-gradient(90deg, #6a00ff, #9943b3);
+    --gradient-purple-3: linear-gradient(90deg, #5b1f8f, #c38aff);
 }
