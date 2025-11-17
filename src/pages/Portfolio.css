@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 860px;
+  height: 770px;
 }
 
 .sobre-section{
@@ -38,12 +38,13 @@
 
 /* O conteúdo (Header, Hero) deve estar sempre acima, como já estava */
 #home {
-  margin-top: 14rem;
+  margin-top: 8rem;
   z-index: 10;
 }
 
 .hero-container{
   display: flex;
+
 }
 
 .container-principal{
@@ -55,17 +56,29 @@
 
 .hero-texto{
   width: 70%;
+
 }
 
 .hero-texto h1{
   font-size: 3rem;
   color: white;
+  font-family: 'Poppins';
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
 }
+
 
 .hero-texto span{
   background: var(--gradient-purple-2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.hero-texto h3{
+  font-weight: 100;
+  font-size: 1rem;
+  color: var(--color-roxo-primario);
 }
 
 .paragrafo{
@@ -111,4 +124,10 @@
 .entre-contato:hover{
     transform: translateY(-3px);
     box-shadow: 0 0 20px #8b4ee088;
+}
+
+.sobre-section *{
+  margin: 0;
+  color: white;
+  background-color: #000000d2;
 }

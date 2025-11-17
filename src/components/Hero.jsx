@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className='hero-container'>
       <div className='hero-texto'>
-
-        <h1> Olá, me chamo <span>Felipe Freires</span></h1>
+        <h3>Front-End Developer</h3>
+        <h1> Olá, me chamo <br></br> <span>Felipe Freires</span></h1>
         <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -21,11 +21,10 @@ const Hero = () => {
       ]}
       wrapper="p"
       speed={30}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '2em', display: 'inline-block', marginTop: 20, marginBottom: 20}}
       repeat={Infinity}
     />
-        <h3>Front-End</h3>
-        <p className='paragrafo'>Sou um dev front-end iniciante, mas extremamente dedicado. Estou cursando Sistemas de Informação e focado em evoluir rápido, sempre construindo projetos reais e aprendendo novas tecnologias.</p>
+      <p className='paragrafo'>Sou um dev front-end iniciante, mas extremamente dedicado. Estou cursando Sistemas de Informação e focado em evoluir rápido, sempre construindo projetos reais e aprendendo novas tecnologias.</p>
       <button className='entre-contato'>Entre em Contato</button>
       <button className='saiba-mais'>Saiba Mais</button>
       </div>

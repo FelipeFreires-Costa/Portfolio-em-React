@@ -1,4 +1,6 @@
 import React from 'react'
+import './Sobre.css'
+import '../styles/variables.css'
 
 const Sobre = () => {
   return (

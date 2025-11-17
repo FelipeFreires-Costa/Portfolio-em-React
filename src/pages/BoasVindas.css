@@ -37,6 +37,11 @@
   color: #ffffffde;
 }
 
+.title span{
+  background: var(--gradient-purple-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .entrar-btn {
   background: rgba(211, 211, 211, 0.055);
@@ -55,4 +60,25 @@
 .entrar-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 0 30px #8b4ee0da;
+}
+
+.icons img{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(34, 33, 33, 0.678);
+  border: 1px solid var(--color-roxo-primario);
+    transition: 0.2s ease-in-out;
+}
+.icons img:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px #8b4ee0da;
+}
+
+.icons{
+  gap: 40px;
+  display: flex;
 }
