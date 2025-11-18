@@ -1,6 +1,62 @@
 
-
 .sobre-container{
-  margin: 0;
-  color: white;
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+}
+
+.sobre-image{
+  width: 70%;
+}
+
+.sobre-section{
+    height: 700px;
+    color: white;
+    background-color: rgb(13, 13, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sobre-container h2{
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 5px;
+  background: var(--gradient-purple-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins';
+}
+
+/* O título fica centralizado no topo */
+.sobre-container h2 {
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+/* 🟢 AQUI ESTÁ O GRID PRINCIPAL 🟢 */
+.sobre-conteudo-grid {
+display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10rem;
+    align-items: center;
+    justify-items: end;
+    justify-content: center; /* Alinha verticalmente o conteúdo (imagem e texto) no centro */
+}
+
+/* Para organizar o texto, o título, o parágrafo e os futuros botões */
+.sobre-texto-content {
+    /* Usamos Flexbox para empilhar o texto e o botão verticalmente */
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Garante que o texto comece à esquerda */
+}
+
+/* Opcional: Centraliza a imagem dentro da sua célula (se for menor que 1fr) */
+.hero-image {
+    display: flex;
+    justify-content: center;
 }

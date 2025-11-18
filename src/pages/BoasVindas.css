@@ -38,7 +38,7 @@
 }
 
 .title span{
-  background: var(--gradient-purple-2);
+  background: var(--gradient-purple-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

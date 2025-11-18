@@ -40,13 +40,13 @@ function Portfolio(){
     </div>
         <section id="sobre" className="sobre-section">
           <Sobre />
-          <FaculdadeCard />
         </section>
 
       <main>
 
         {/* Pedaço 5: Habilidades (Ícones) */}
         <section id="habilidades" className="habilidades-section">
+          <FaculdadeCard />
           <Habilidades />
         </section>
         

@@ -1,5 +1,4 @@
 import React from 'react'
-import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -7,26 +6,18 @@ const Hero = () => {
       <div className='hero-texto'>
         <h3>Front-End Developer</h3>
         <h1> Olá, me chamo <br></br> <span>Felipe Freires</span></h1>
-        <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Evoluindo no front-end e construindo experiência',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Evoluindo no front-end e construindo projetos',
-        1000,
-        'Evoluindo no front-end e construindo soluções',
-        1000,
-        'Evoluindo no front-end e construindo conhecimento',
-        1000
-      ]}
-      wrapper="p"
-      speed={30}
-      style={{ fontSize: '2em', display: 'inline-block', marginTop: 20, marginBottom: 20}}
-      repeat={Infinity}
-    />
-      <p className='paragrafo'>Sou um dev front-end iniciante, mas extremamente dedicado. Estou cursando Sistemas de Informação e focado em evoluir rápido, sempre construindo projetos reais e aprendendo novas tecnologias.</p>
+
+
+      <p className='paragrafo'>Desenvolvedor Front-End. Transformo ideias em experiências digitais que unem beleza e funcionalidade. Focado em interfaces modernas e responsivas.</p>
+      <div className='linguagens'>
+        
+        <p>React</p>
+        <p>JavaScript</p>
+        <p>Html</p>
+        <p>CSS</p>
+      </div>
       <button className='entre-contato'>Entre em Contato</button>
-      <button className='saiba-mais'>Saiba Mais</button>
+      <button className='saiba-mais'>Projetos</button>
       </div>
       <div className='hero-image'>
         <img src='/public/foto.jpg' alt="foto perfil felipe" className='perfil-img'/>

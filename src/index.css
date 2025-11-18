@@ -41,7 +41,7 @@ html {
     --gradient-roxo: linear-gradient(90deg,
             var(--color-roxo-primario),
             var(--color-roxo-acento));
-    --gradient-purple-1: linear-gradient(90deg, #7f00ff, #e100ff);
+    --gradient-purple-1: linear-gradient(45deg, #6a27c9, #be56dd);
     --gradient-purple-2: linear-gradient(90deg, #6a00ff, #9943b3);
     --gradient-purple-3: linear-gradient(90deg, #5b1f8f, #c38aff);
 }
