@@ -68,10 +68,10 @@
   display: flex;
   padding: 5px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 8px;
   background: rgba(34, 33, 33, 0.678);
   border: 1px solid var(--color-roxo-primario);
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .icons img:hover{
   transform: translateY(-2px);

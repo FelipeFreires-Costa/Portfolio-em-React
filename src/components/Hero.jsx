@@ -17,7 +17,7 @@ const Hero = () => {
         <p>CSS</p>
       </div>
       <button className='entre-contato'>Entre em Contato</button>
-      <button className='saiba-mais'>Projetos</button>
+      <button className='saiba-mais'>Projetos <img src="./src/assets/share.svg" alt="" /> </button>
       </div>
       <div className='hero-image'>
         <img src='/public/foto.jpg' alt="foto perfil felipe" className='perfil-img'/>

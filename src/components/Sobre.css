@@ -1,62 +1,150 @@
-
-.sobre-container{
+.sobre-container {
     display: flex;
+    margin: 0 auto;
+    flex-direction: column;
     width: 70%;
-    flex-direction: row;
 }
 
-.sobre-image{
-  width: 70%;
+.background-sobre{
+    width: 100%;
+    background-image: url('../assets/ooorganize.svg');
+    background-position: center;
+    object-fit: fill;
+    filter: blur();
+    min-height: 60vh;
+
 }
 
-.sobre-section{
-    height: 700px;
+.sobre-content {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+.sobre-section {
+    display: flex;
+    align-items: center;
     color: white;
-    background-color: rgb(13, 13, 14);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    min-height: 220px;
 }
 
-.sobre-container h2{
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 5px;
-  background: var(--gradient-purple-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Poppins';
-}
-
-/* O título fica centralizado no topo */
 .sobre-container h2 {
-    text-align: center; 
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    background: var(--gradient-purple-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins';
+    margin: 20px 0 0 0;
+}
+
+.sobre-container p {
+    text-align: center;
+    margin: 0;
+    color: #c1c1c1;
     margin-bottom: 40px;
+    font-family: 'Poppins';
 }
 
-/* 🟢 AQUI ESTÁ O GRID PRINCIPAL 🟢 */
-.sobre-conteudo-grid {
-display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 10rem;
-    align-items: center;
-    justify-items: end;
-    justify-content: center; /* Alinha verticalmente o conteúdo (imagem e texto) no centro */
-}
-
-/* Para organizar o texto, o título, o parágrafo e os futuros botões */
 .sobre-texto-content {
-    /* Usamos Flexbox para empilhar o texto e o botão verticalmente */
     display: flex;
+    flex-direction: row;
     flex-direction: column;
-    text-align: left; /* Garante que o texto comece à esquerda */
+    justify-content: center;
+    height: 180px;
+    gap: 8px;
+    max-width: 900px;
 }
 
-/* Opcional: Centraliza a imagem dentro da sua célula (se for menor que 1fr) */
-.hero-image {
-    display: flex;
-    justify-content: center;
+.sobre-texto-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 20px;
+    font-family: 'Poppins';
+
 }
+
+.sobre-texto-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    border-radius: 4px;
+    height: 80px;
+    background: var(--color-roxo-primario);
+    box-shadow: 0 2px 8px #7200dd55;
+}
+
+.sobre-texto-content p {
+    font-family: 'Urbanist';
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.sobre-texto-content span {
+    background: var(--gradient-purple-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.curriculo {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px 20px 0 0;
+    background: var(--gradient-purple-2);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Urbanist';
+    border: 1px solid var(--color-roxo-primario);
+    transition: 0.2s ease;
+}
+
+.curriculo img {
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.github {
+    padding: 10px;
+    background: rgba(211, 211, 211, 0.055);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Urbanist';
+    border: 1px solid var(--color-roxo-primario);
+    font-size: 1rem;
+    transition: 0.2s ease;
+    align-items: center;
+}
+
+.github img {
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 3px;
+}
+
+.github:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px #8b4ee0da;
+}
+.curriculo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px #8b4ee0da;
+}
+

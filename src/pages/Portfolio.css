@@ -3,7 +3,7 @@
     min-height: 100vh; /* Garante que a página tenha no mínimo a altura da tela, mas permite crescer */
     width: 100vw; 
     margin: 0 auto;
-    background-color: #111111 ;
+    background-color: rgb(13, 13, 14);
     justify-content: center;
 }
 
@@ -27,9 +27,12 @@
   height: 770px;
 }
 
-.sobre-section{
-  z-index: 10;
+.background-sobre{
+  position: relative;
+  width: 100%;
 }
+
+
 
 .conteudo{
   margin-top:14rem ;
@@ -44,7 +47,7 @@
 
 .hero-container{
   display: flex;
-
+  justify-content: center;
 }
 
 .container-principal{
@@ -102,6 +105,14 @@
   border: 1px solid var(--color-roxo-primario);
   font-size: 1rem;
   transition: 0.2s ease;
+  align-items: center;
+}
+
+
+.saiba-mais img{
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
 }
 
 .saiba-mais:hover{

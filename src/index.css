@@ -7,6 +7,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     /* CRUCIAL: Esconde qualquer conteúdo que tente sair do limite da tela, removendo as barras de rolagem desnecessárias */
+    background-color: rgb(13, 13, 14);
 }
 
 html {
