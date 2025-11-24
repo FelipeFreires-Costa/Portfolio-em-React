@@ -37,15 +37,25 @@ function Portfolio(){
 
 </div>
 
+
     </div>
+
+
+
+
         <section id="sobre" className="sobre-section">
           <div className='background-sobre'>
           <Sobre />
           </div>
         </section>
-
-      <main>
-
+    <div className='bg-balls'>
+      <div className='bg-ball bg-ball1'></div>
+      <div className='bg-ball bg-ball2'></div>
+      <div className='bg-ball bg-ball3'></div>
+      <div className='bg-ball bg-ball4'></div>
+      <div className='bg-ball bg-ball5'></div>
+    </div>
+<main>
         {/* Pedaço 5: Habilidades (Ícones) */}
           <FaculdadeCard className='faculdade-section' />
         <section id="habilidades" className="habilidades-section">
@@ -63,9 +73,13 @@ function Portfolio(){
         </section>
 
       </main>
-      
-      {/* Pedaço 8: Rodapé */}
+            {/* Pedaço 8: Rodapé */}
       <Footer />
+
+
+      
+      
+
     </div> 
       
   )

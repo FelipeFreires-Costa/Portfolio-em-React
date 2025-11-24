@@ -7,11 +7,10 @@
 
 .background-sobre{
     width: 100%;
-    background-image: url('../assets/ooorganize.svg');
     background-position: center;
     object-fit: fill;
     filter: blur();
-    min-height: 60vh;
+    min-height: 55vh;
 
 }
 

@@ -1,12 +1,12 @@
 html,
 body {
     margin: 0;
+    position: fixed;
+    z-index: -2;
     padding: 0;
-    /* Faz a página ocupar 100% da largura e altura da tela */
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    /* CRUCIAL: Esconde qualquer conteúdo que tente sair do limite da tela, removendo as barras de rolagem desnecessárias */
     background-color: rgb(13, 13, 14);
 }
 
@@ -43,6 +43,6 @@ html {
             var(--color-roxo-primario),
             var(--color-roxo-acento));
     --gradient-purple-1: linear-gradient(45deg, #6a27c9, #be56dd);
-    --gradient-purple-2: linear-gradient(90deg, #6a00ff, #9943b3);
+    --gradient-purple-2: linear-gradient(90deg, #5302c4, #b062c8);
     --gradient-purple-3: linear-gradient(90deg, #5b1f8f, #c38aff);
 }
