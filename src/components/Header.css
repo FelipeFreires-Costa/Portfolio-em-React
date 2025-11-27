@@ -44,3 +44,9 @@
     /* Fica branco quando passa o mouse */
     text-decoration: underline;
 }
+
+span{
+    background: var(--gradient-purple-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

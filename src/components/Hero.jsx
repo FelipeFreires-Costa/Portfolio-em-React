@@ -5,7 +5,7 @@ const Hero = () => {
     <div className='hero-container'>
       <div className='hero-texto'>
         <h3>Front-End Developer</h3>
-        <h1> Olá, me chamo <br></br> <span>Felipe Freires</span></h1>
+        <h1> Front-End<br></br> <span>Developer</span></h1>
 
 
       <p className='paragrafo'>Desenvolvedor Front-End. Transformo ideias em experiências digitais que unem beleza e funcionalidade. Focado em interfaces modernas e responsivas.</p>

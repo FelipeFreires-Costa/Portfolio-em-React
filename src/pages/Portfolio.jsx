@@ -8,6 +8,7 @@ import Projetos from '../components/Projetos';
 import Contato from '../components/Contato';
 import Footer from '../components/Footer';
 import LightRays from './LightRays.jsx';
+import TechCarrousel from '../components/TechCarrousel.jsx';
 import './Portfolio.css'
 
 function Portfolio(){
@@ -34,14 +35,11 @@ function Portfolio(){
         <section id="home">
           <Hero />
         </section>
-
+          <TechCarrousel />
 </div>
 
 
     </div>
-
-
-
 
         <section id="sobre" className="sobre-section">
           <div className='background-sobre'>
