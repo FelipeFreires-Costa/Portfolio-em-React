@@ -1,4 +1,5 @@
 import React from 'react'
+import './ProjetoCard.css'
 
 //recebemos os dados (titulo, desc, link e imagem)
 function ProjetoCard({titulo, descricao, link, imagem}){

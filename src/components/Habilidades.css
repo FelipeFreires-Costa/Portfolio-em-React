@@ -8,7 +8,7 @@
 
 .habilidades-container h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
     background: var(--gradient-purple-2);
     -webkit-background-clip: text;
@@ -20,22 +20,19 @@
 .skills-grid{
   justify-content: center;
   display: flex;
-  gap: 50px;
+  gap: 100px;
   
+}
+
+.skills-grid p{
+  font-size: 13px;
 }
 
 .skill-card{
   margin-top: 30px;
   display: flex;
   font-family: 'Urbanist';
-  background: rgba(211, 211, 211, 0.055);
-    border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(255, 255, 255, 0.103);
-    color: #ffffff;
-    padding: 10px 25px 8px 25px;
+  color: #ffffff;
   flex-direction: column;
   align-items: center;
   transition: 0.2s ease;
@@ -50,5 +47,5 @@
 }
 
 .skill-card img{
-  width: 70px;
+  width: 40px;
 }

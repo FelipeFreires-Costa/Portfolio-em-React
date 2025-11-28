@@ -35,7 +35,7 @@ function Portfolio(){
         <section id="home">
           <Hero />
         </section>
-          <TechCarrousel />
+
 </div>
 
 

@@ -19,7 +19,7 @@ export default function TechCarrousel(){
 
       <div className="carousel-track">
         {/* triplicado para garantir loop perfeito */}
-        {[...stacks, ...stacks, ...stacks,].map((tech, index) => (
+        {[...stacks, ...stacks,].map((tech, index) => (
           <div className="carousel-item" key={index}>
             <img src={tech.icon} alt={tech.name} className="carousel-icon" />
             <p>{tech.name}</p>
