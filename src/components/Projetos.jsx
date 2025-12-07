@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ProjetoCard from './ProjetoCard'
+import './Projetos.css'
 
 const dadosDosProjetos = [
   {
